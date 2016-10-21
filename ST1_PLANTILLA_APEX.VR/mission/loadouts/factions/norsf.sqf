@@ -24,11 +24,11 @@ _commonSNIPER = _SAMR;
 _commonAT = _AT4CSHEAT;
 _specAT = _MAAWS;
 _commonSMG = _RHSM4;
-_commonRCO = "RH_ta31rmr";
-_commonCCO = "RH_eotech553";
+_commonRCO = "optic_Hamr";
+_commonCCO = "optic_Holosight";
 _commonMAGNIFIED = _SOS;
-_commonSUPPRESSOR = "RH_qdss_nt4";
-_commonPISTOLSUPPRESSOR = "RH_sfn57";
+_commonSUPPRESSOR = "muzzle_snds_M";
+_commonPISTOLSUPPRESSOR = "";
 _NVG = _NVGEN4;
 
 // AMMO COUNT ==================================================================
@@ -291,7 +291,7 @@ switch (true) do {
         [_commonRIFLEGL, _countRIFLE] call _addWeaponKit;
         [_commonPISTOL, _countPISTOL] call _addWeaponKit;
 		["primary", _commonRCO] call _attachToWeapon;
-		["primary", "RH_peq15b"] call _attachToWeapon;
+		["primary", "acc_pointer_IR"] call _attachToWeapon;
         ["primary", _commonSUPPRESSOR] call _attachToWeapon;
         ["secondary", _commonPISTOLSUPPRESSOR] call _attachToWeapon;
 		[[_unit,[(_commonRIFLEGL select 1),5],[(_commonRIFLEGL select 2),10],[_irGRENADEblufor,2]]] call _addtoBackpack;
@@ -306,7 +306,7 @@ switch (true) do {
         [_commonRIFLE, _countRIFLE] call _addWeaponKit;
         [_commonPISTOL, _countPISTOL] call _addWeaponKit;
 		["primary", _commonRCO] call _attachToWeapon;
-		["primary", "RH_peq15b"] call _attachToWeapon;
+		["primary", "acc_pointer_IR"] call _attachToWeapon;
         ["primary", _commonSUPPRESSOR] call _attachToWeapon;
         ["secondary", _commonPISTOLSUPPRESSOR] call _attachToWeapon;
 		[_commonAT] call _addWeapon;
@@ -321,7 +321,7 @@ switch (true) do {
         [_commonRIFLE, _countRIFLE] call _addWeaponKit;
         [_commonPISTOL, _countPISTOL] call _addWeaponKit;
 		["primary", _commonRCO] call _attachToWeapon;
-		["primary", "RH_peq15b"] call _attachToWeapon;
+		["primary", "acc_pointer_IR"] call _attachToWeapon;
         ["primary", _commonSUPPRESSOR] call _attachToWeapon;
         ["secondary", _commonPISTOLSUPPRESSOR] call _attachToWeapon;
 		_suppliesMEDIC call _addtoBackpack;
@@ -337,7 +337,7 @@ switch (true) do {
         [_commonRIFLE, _countRIFLE] call _addWeaponKit;
         [_commonPISTOL, _countPISTOL] call _addWeaponKit;
 		["primary", _commonRCO] call _attachToWeapon;
-		["primary", "RH_peq15b"] call _attachToWeapon;
+		["primary", "acc_pointer_IR"] call _attachToWeapon;
         ["primary", _commonSUPPRESSOR] call _attachToWeapon;
         ["secondary", _commonPISTOLSUPPRESSOR] call _attachToWeapon;
 		[[_unit, [_clacker,1],[_mineDetector,1],[_defusalKit,1]]] call _addtoUniform;

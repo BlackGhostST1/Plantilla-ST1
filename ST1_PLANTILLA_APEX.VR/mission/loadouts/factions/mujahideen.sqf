@@ -27,7 +27,7 @@ _commonRCO = "HLC_Optic_PSO1";
 _commonCCO = "hlc_optic_kobra";
 _commonMAGNIFIED = "HLC_Optic_1p29";
 _commonSUPPRESSOR = "hlc_muzzle_762SUP_AK";
-_commonPISTOLSUPPRESSOR = "RH_pmsd";
+_commonPISTOLSUPPRESSOR = "";
 _NVG = _NVGEN1;
 
 // AMMO COUNT ==================================================================

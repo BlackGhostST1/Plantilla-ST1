@@ -43,7 +43,7 @@ _commonSUPPRESSOR = "rhsusf_acc_nt4_black";
 _marksmanSUPPRESSOR = "muzzle_snds_B_khk_F";
 _sniperSUPPRESSOR = "muzzle_snds_338_black";
 _commonBIPOD = "bipod_01_F_blk";
-_commonPISTOLSUPPRESSOR = "RH_m9qd";
+_commonPISTOLSUPPRESSOR = "muzzle_snds_L";
 _commonLASER = "rhsusf_acc_anpeq15side_bk";
 _NVG = "rhsusf_ANPVS_15";
 
