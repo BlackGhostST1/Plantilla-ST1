@@ -31,96 +31,95 @@ All credits given to their respective creators.</font>"]];
 player createDiaryRecord ["Diary",["Sistema Médico",
 // =============================================================================
 "
-<font color='#E6E6E6' size='14'>SISTEMA MÉDICO</font>      		<br/>
-
+<font color='#E6E6E6' size='14'>SISTEMA MÉDICO</font><br/>
 <br/>
-<font color='#E6E6E6' size='14'>Abrasiones</font color><br/>
+<font color='#E6E6E6' size='14'>Abrasiones.</font color><br/>
 <font color='#9DA698'>
-    | <font color='#E6E6E6'>Origen:</font> Caidas, quemaduras, colisión con vehículo.					<br/>
-    | <font color='#E6E6E6'>Efectos:</font>										  						<br/>
-         | Dolor - muy ligero																			<br/>
-         | Hemorragia - muy lenta																		<br/>
-    | <font color='#E6E6E6'>Tratamiento:</font>                                          			    <br/>
-         | Pequeña - Básico                             												<br/>
-         | Mediana - Básico                            												    <br/>
-         | Grande  - Básico/Compresivo/Elástico         												<br/>
-</font>																									<br/>
-<font color='#E6E6E6' size='14'>Avulsiones</font color>													<br/>
+    | <font color='#E6E6E6'>Origen:</font> Caidas, quemaduras, colisión con vehículo.<br/>
+    | <font color='#E6E6E6'>Efectos:</font><br/>
+         | Dolor - muy ligero.<br/>
+         | Hemorragia - muy lenta.<br/>
+    | <font color='#E6E6E6'>Tratamiento:</font><br/>
+         | Pequeña - Básico.<br/>
+         | Mediana - Básico.<br/>
+         | Grande  - Básico/Compresivo/Elástico.<br/>
+</font><br/>
+<font color='#E6E6E6' size='14'>Avulsiones.</font color><br/>
 <font color='#9DA698'>
-    | <font color='#E6E6E6'>Origen:</font> Explosiones, colisión con vehículo, impactos de proyectil.	<br/>
-    | <font color='#E6E6E6'>Efectos:</font>																<br/>
-         | Dolor - muy alto																				<br/>
-         | Hemorragia - muy rápida (depende del tamaño)													<br/>
-    | <font color='#E6E6E6'>Tratamiento:</font>															<br/>
-         | Pequeña - Compresivo                        													<br/>
-         | Mediana - Compresivo y Básico                												<br/>
-         | Grande  - Compresivo x2                      												<br/>
-</font> 																								<br/>
-<font color='#E6E6E6' size='14'>Tejido triturado</font color>											<br/>
+    | <font color='#E6E6E6'>Origen:</font> Explosiones, colisión con vehículo, impactos de proyectil.<br/>
+    | <font color='#E6E6E6'>Efectos:</font><br/>
+         | Dolor - muy alto.<br/>
+         | Hemorragia - muy rápida (depende del tamaño).<br/>
+    | <font color='#E6E6E6'>Tratamiento:</font><br/>
+         | Pequeña - Compresivo.<br/>
+         | Mediana - Compresivo y Básico.<br/>
+         | Grande  - Compresivo x2.<br/>
+</font><br/>
+<font color='#E6E6E6' size='14'>Tejido triturado.</font color><br/>
 <font color='#9DA698'>
-    | <font color='#E6E6E6'>Origen:</font> Impactos de proyectil, Back-blast, colisión con vehículo, caidas.							<br/>
-    | <font color='#E6E6E6'>Efectos:</font>																<br/>
-         | Dolor - ligero																				<br/>
-         | Sin Hemorragia																				<br/>
-    | <font color='#E6E6E6'>Tratamiento:</font>															<br/>
-         | Pequeña - Básico/Elástico/Quickclot          												<br/>
-         | Mediana - Elástico                           												<br/>
-         | Grande  - Elástico                           												<br/>
-</font>                                                 												<br/>
-<font color='#E6E6E6' size='14'>Cortes</font color>														<br/>
+    | <font color='#E6E6E6'>Origen:</font> Impactos de proyectil, Back-blast, colisión con vehículo, caidas.<br/>
+    | <font color='#E6E6E6'>Efectos:</font><br/>
+         | Dolor - ligero.<br/>
+         | Sin Hemorragia.<br/>
+    | <font color='#E6E6E6'>Tratamiento:</font><br/>
+         | Pequeña - Básico/Elástico/Quickclot.<br/>
+         | Mediana - Elástico.<br/>
+         | Grande  - Elástico.<br/>
+</font><br/>
+<font color='#E6E6E6' size='14'>Cortes.</font color><br/>
 <font color='#9DA698'>
-    | <font color='#E6E6E6'>Origen:</font> Colisión con vehículo, explosiones.														<br/>
-    | <font color='#E6E6E6'>Efectos:</font>																<br/>
-         | Dolor - ligero																				<br/>
-         | Hemorragia - rápida (depende del tamaño)														<br/>
-    | <font color='#E6E6E6'>Tratamiento:</font>															<br/>
-         | Pequeña - Básico                          													<br/>
-         | Mediana - Básico                           													<br/>
-         | Grande  - Básico                           													<br/>
-</font>                                                 												<br/>
-<font color='#E6E6E6' size='14'>Laceraciones</font color>												<br/>
+    | <font color='#E6E6E6'>Origen:</font> Colisión con vehículo, explosiones.<br/>
+    | <font color='#E6E6E6'>Efectos:</font><br/>
+         | Dolor - ligero.<br/>
+         | Hemorragia - rápida (depende del tamaño).<br/>
+    | <font color='#E6E6E6'>Tratamiento:</font><br/>
+         | Pequeña - Básico.<br/>
+         | Mediana - Básico.<br/>
+         | Grande  - Básico.<br/>
+</font><br/>
+<font color='#E6E6E6' size='14'>Laceraciones.</font color><br/>
 <font color='#9DA698'>
-    | <font color='#E6E6E6'>Origen:</font> Colisión con vehículo.																	<br/>
-    | <font color='#E6E6E6'>Efectos:</font>																<br/>
-         | Dolor - ligero																				<br/>
-         | Hemorragia - lenta/intermedia (depende del tamaño)											<br/>
-    | <font color='#E6E6E6'>Tratamiento:</font>															<br/>
-         | Pequeña - Compresivo/Elástico             												 	<br/>
-         | Mediana - Elástico y Básico               													<br/>
-         | Grande  - Elástico y Quickclot             													<br/>
-</font>  																								<br/>
-<font color='#E6E6E6' size='14'>Herida de bala</font color>												<br/>
+    | <font color='#E6E6E6'>Origen:</font> Colisión con vehículo.<br/>
+    | <font color='#E6E6E6'>Efectos:</font><br/>
+         | Dolor - ligero.<br/>
+         | Hemorragia - lenta/intermedia (depende del tamaño).<br/>
+    | <font color='#E6E6E6'>Tratamiento:</font><br/>
+         | Pequeña - Compresivo/Elástico.<br/>
+         | Mediana - Elástico y Básico.<br/>
+         | Grande  - Elástico y Quickclot.<br/>
+</font><br/>
+<font color='#E6E6E6' size='14'>Herida de bala.</font color><br/>
 <font color='#9DA698'>
-    | <font color='#E6E6E6'>Origen:</font> Impactos de proyectil, granadas y explosiones.											<br/>
-    | <font color='#E6E6E6'>Efectos:</font>																<br/>
-         | Dolor - muy alto																				<br/>
-         | Hemorragia - intermedia (depende del tamaño)													<br/>
-    | <font color='#E6E6E6'>Tratamiento:</font>															<br/>
-         | Pequeña - Compresivo             															<br/>
-         | Mediana - Elástico y Básico                													<br/>
-         | Grande  - Quickclot x2                     													<br/>
-</font>                                                                    								<br/>
-<font color='#E6E6E6' size='14'>Herida punzante</font color>											<br/>
+    | <font color='#E6E6E6'>Origen:</font> Impactos de proyectil, granadas y explosiones.<br/>
+    | <font color='#E6E6E6'>Efectos:</font><br/>
+         | Dolor - muy alto.<br/>
+         | Hemorragia - intermedia (depende del tamaño).<br/>
+    | <font color='#E6E6E6'>Tratamiento:</font><br/>
+         | Pequeña - Compresivo.<br/>
+         | Mediana - Elástico y Básico.<br/>
+         | Grande  - Quickclot x2.<br/>
+</font><br/>
+<font color='#E6E6E6' size='14'>Herida punzante</font color><br/>
 <font color='#9DA698'>
-    | <font color='#E6E6E6'>Origen:</font> Granadas.																					<br/>
-    | <font color='#E6E6E6'>Efectos:</font>																<br/>
-         | Dolor - ligero																				<br/>
-         | Hemorragia - lenta																			<br/>
-    | <font color='#E6E6E6'>Tratamiento:</font>															<br/>
-         | Pequeña - Básico/Elástico              														<br/>
-         | Mediana - Compresivo y Quickclot                												<br/>
-         | Grande  - Elástico y Quickclot                    											<br/>
-</font>                                                                     							<br/>
-<font color='#E6E6E6' size='14'>Contusiones</font color>
-<font color='#9DA698'>												<br/>
-    | <font color='#E6E6E6'>Origen:</font> Caidas, colisión con vehículo.                                         					<br/>
-    | <font color='#E6E6E6'>Efectos:</font>                                                   		    <br/>
-         | Dolor - ligero                                               								<br/>
-         | Hemorragia - lenta                                          									<br/>
-    | <font color='#E6E6E6'>Tratamiento:</font>															<br/>
-         | Pequeña - Básico              																<br/>
-         | Mediana - Básico               																<br/>
-         | Grande  - Quickclot x2                     													<br/>
+    | <font color='#E6E6E6'>Origen:</font> Granadas.<br/>
+    | <font color='#E6E6E6'>Efectos:</font><br/>
+         | Dolor - ligero.<br/>
+         | Hemorragia - lenta.<br/>
+    | <font color='#E6E6E6'>Tratamiento:</font><br/>
+         | Pequeña - Básico/Elástico.<br/>
+         | Mediana - Compresivo y Quickclot.<br/>
+         | Grande  - Elástico y Quickclot.<br/>
+</font><br/>
+<font color='#E6E6E6' size='14'>Contusiones.</font color>
+<font color='#9DA698'><br/>
+    | <font color='#E6E6E6'>Origen:</font> Caidas, colisión con vehículo.<br/>
+    | <font color='#E6E6E6'>Efectos:</font><br/>
+         | Dolor - ligero.<br/>
+         | Hemorragia - lenta.<br/>
+    | <font color='#E6E6E6'>Tratamiento:</font><br/>
+         | Pequeña - Básico.<br/>
+         | Mediana - Básico.<br/>
+         | Grande  - Quickclot x2.<br/>
 </font>
 "]];
 
@@ -183,4 +182,3 @@ De dos a cuatro vehículos de asalto ligeros patrullando por la zona.
 ///// LOG
 player createDiarySubject ["ST1 Log","ST1 Log"];
 player createDiaryRecord ["ST1 Log",["Comunicaciones","<br/><br/><font color='#9DA698'>El historial de comunicaciones almacena todos los mensajes transmitidos entre la ST1 y HQ<br/>Los mensajes se guardan después de que aparezcan en pantalla en orden de aparición.</font><br/><br/>"]];
-
