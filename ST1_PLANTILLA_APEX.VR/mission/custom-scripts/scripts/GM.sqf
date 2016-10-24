@@ -20,6 +20,18 @@ Place a 'ZEUS Game Master' module for each unit:
 - Owner: GM_x (where x is the unit number)
 - Default addons: All addons (incl unofficial ones)
 - Forced interface: disabled
+
+****************************************************************
+Este script añade varias funcionalidades adicionales al rol de Zeus/Game Master/Instructor
+
+Instrucciones:
+
+Asegurate de que tus unidades Zeus (max 2) tienen estos nombres: GM_1 y/o GM_2
+Coloca un módulo "Zeus Game Master" para cada unidad:
+- Nombre: GMmod_x (Donde x es el numero de la unidad)
+- Propietario: GM_x (Donde x es el numero de la unidad)
+- Addons por defecto: Todos los addons (incl los no oficiales)
+- Interfaz forzada: desactivado
 ****************************************************************/
 
 if (isServer) then {diag_log "ADF RPT: Init - executing ADF_GM.sqf"}; // Reporting. Do NOT edit/remove
@@ -155,7 +167,7 @@ if (ADF_mod_Ares) exitWith { // Use ARES instead of ADF Zeus functions > V1.39 B
 private "_civ";
 _civ = true;
 
-{ //adds objects placed in editor:
+{ //adds objects placed in editor: // añade los objetos puestos en el editor
 	_x addCuratorEditableObjects [vehicles, true];
 	_x addCuratorEditableObjects [(allMissionObjects "Man"), false];
 	_x addCuratorEditableObjects [(allMissionObjects "Air"), true];
@@ -163,7 +175,7 @@ _civ = true;
 	_x allowCuratorLogicIgnoreAreas true;
 } forEach curArray;
 
-//makes all units continuously available to Zeus (for respawning players and AI that's being spawned by a script.)
+//makes all units continuously available to Zeus (for respawning players and AI that's being spawned by a script.) // Hace todas las unidades continuamente accesibles al Zeus (para jugadores que hacen respawn y IA spawneada por script)
 if (ADF_debug) then {["ZEUS - ADV Zeus function Initialized", false] call ADF_fnc_log};
 while {true} do {
 	_a = if (!_civ && {(side _x) == civilian}) then {false} else {true};
@@ -180,4 +192,3 @@ while {true} do {
 	sleep 10;
 	//if (ADF_debug) then {["ZEUS - Objects transferred to Curator(s) ", false] call ADF_fnc_log};
 };
-

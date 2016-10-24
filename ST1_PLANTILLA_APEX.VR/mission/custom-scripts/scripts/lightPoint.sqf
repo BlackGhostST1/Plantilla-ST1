@@ -20,21 +20,31 @@ this 	= defines the object that needs the light source. Do not change
 0.2		= light brightness. 0.2 for dim light and 1.0 for very bright light
 0		= Altitude light position offset from the object
 
+****************************************************************
+Crear un punto de luz para iluminar objetos (dentro/fuera)
+
+Instrucciones:
+Coloca un objeto o lógica de juego en el mapa y pon lo siguiente en el campo de inicializacion.
+null = [this, 0.2, 0] execVM "Core\ADF_lightPoint.sqf";
+
+this 	= define el objeto que necesita la fuente de luz. No cambiar
+0.2		= brillo de la luz. 0.2 una luz tenue y 1.0 para una muy brillante
+0		= Altitud y desplazamiento de la luz
 ****************************************************************/
 
 // Init
 params [
-	"_ADF_h",	// grab the object's name
-	"_ADF_b",	// grab brightness
-	"_ADF_zPos"	// grab altitude
+	"_ADF_h",	// grab the object's name // coje el nombre del objeto
+	"_ADF_b",	// grab brightness // coje el brillo
+	"_ADF_zPos"	// grab altitude // coje la altitud
 ];
-_ADF_hLoc 	= getPosASL _ADF_h; // get the location and alt.
-_ADF_lLoc	= [0, 0, _ADF_zPos]; // set the light loc offset
+_ADF_hLoc 	= getPosASL _ADF_h; // get the location and alt. // coje la posicion y la altitud
+_ADF_lLoc	= [0, 0, _ADF_zPos]; // set the light loc offset // asigna el desplazamiento de posicion de la luz
 
-_ADF_hLight = "#lightpoint" createVehicleLocal _ADF_hLoc; // Create the light
-_ADF_hLight setLightBrightness _ADF_b; // light config
-_ADF_hLight setLightAmbient [1.0, 1.0, 0.5]; // light config
-_ADF_hLight setLightColor [1.0, 1.0, 1.0]; // light config	
-_ADF_hLight setLightUseFlare true; // light config	
-_ADF_hLight lightAttachObject [_ADF_h, _ADF_lLoc]; // attach the light to the object
+_ADF_hLight = "#lightpoint" createVehicleLocal _ADF_hLoc; // Create the light // crea la luz
+_ADF_hLight setLightBrightness _ADF_b; // light config // config de la luz
+_ADF_hLight setLightAmbient [1.0, 1.0, 0.5]; // light config // config de la luz
+_ADF_hLight setLightColor [1.0, 1.0, 1.0]; // light config // config de la luz
+_ADF_hLight setLightUseFlare true; // light config // config de la luz
+_ADF_hLight lightAttachObject [_ADF_h, _ADF_lLoc]; // attach the light to the object // fija la luz al objeto
 _ADF_hLight setPos [getPos _ADF_hLight select 0, getPos _ADF_hLight select 1, _ADF_zPos];
