@@ -1,14 +1,14 @@
 
 // ============================================================================
-//                                                                             |
-//   This is where you set the plugin parameters for your mission, have fun!   |
-//                                                                             |
+//
+// Aqui es donde se configuran los parámetros de los plugins que vamos a utilizar en la mision
+//
 // ============================================================================
 
 // ============================================================================
 //                          == INTRO CUTSCENE ==                               |
 //                                                                             |
-//  Valids are: "ESTABLISHING", "TEXT", "CINEMA", "CUSTOM", "QUOTE", "APEX"    | 
+//  Válidos: "ESTABLISHING", "TEXT", "CINEMA", "CUSTOM", "QUOTE", "APEX"    |
 //                               and "NONE".                                   |
 // ============================================================================
 
@@ -24,56 +24,61 @@ if (!isMultiplayer) then {T8U_var_DEBUG = true;} else {T8U_var_DEBUG = false;};
 #include "t8_settings.hpp"
 
 // ============================================================================
-//                       == F2's BODY REMOVAL ==                               |
-//                                                                             |
-//                    Removes the bodies of dead units.                        |
+//                       == F2's BODY REMOVAL ==
+//
+//                    Elimina los cuerpos de unidades muertas
 // ============================================================================
 
-// How long until the bodies are removed.
+// How long until the bodies are removed. // Cuanto esperar para eliminar los cadaveres
 f_var_removeBodyDelay = 120;
 
-// How far do they have to be from a player.
+// How far do they have to be from a player. // Cuanta distancia desde el jugador para eliminarlos
 f_var_removeBodyDistance = 300;
 
 // ============================================================================
-//                       == F2's CASUALTY CAP ==                               |
-//                                                                             |
-//        Detects when a percentage of the selected group(s) is dead,          |
-//        http://ferstaberinde.com/f2/en/index.php?title=Casualties_Cap        |
+//                       == F2's CASUALTY CAP ==
+//
+//        Detecta cuando un porcentaje de un/unos grupo/s seleccionado está muerto
+//        http://ferstaberinde.com/f2/en/index.php?title=Casualties_Cap
 // ============================================================================
 
 casualty_group_BLU = "[blu_0_0, blu_1_0, blu_1_1, blu_1_2, blu_2_0, blu_2_1, blu_2_2, blu_3_0, blu_3_1, blu_3_2, blu_4_0, blu_4_1, blu_4_2]";
 // Casualty groups for BLUFOR.
+// Cuenta bajas par los siguientes grupos BLUFOR
 
 casualty_group_OP = "[op_0_0, op_1_0, op_1_1, op_1_2, op_2_0, op_2_1, op_2_2, op_3_0, op_3_1, op_3_2, op_4_0, op_4_1, op_4_2]";
 // Casualty group for OPFOR.
+// Cuenta bajas par los siguientes grupos OPFOR
 
 casualty_group_IND = "[ind_0_0, ind_1_0, ind_1_1, ind_1_2, ind_2_0, ind_2_1, ind_2_2, ind_3_0, ind_3_1, ind_3_2, ind_4_0, ind_4_1, ind_4_2]";
 // Casualty group for INDFOR.
+// Cuenta bajas par los siguientes grupos INDFOR
 
 // ============================================================================
-//                              == TIME LIMIT ==                               |
-//                                                                             |
-//      This setting decides when players will get a reminder of how much      |
-//                 time is there still left in the mission.                    |
+//                              == TIME LIMIT ==
+//
+//      Este parámetro decide cuándo los jugadores tendrán un recordatorio
+//              de cuanto tiempo les queda todavia en la mision
 // ============================================================================
 
 time_alerted_minutes = [120, 60, 15, 1];
 
 // ============================================================================
-//                            == CIVILIAN CAP ==                               |
-//                                                                             |
-//    Sides included here will be held responsible for civilian casualties,    |
-//                   if the parameters for such are enabled.                   |
+//                            == CIVILIAN CAP ==
+//
+//    Los bandos incluidos aqui serán responsables de las bajas de civiles
+//                  si los parámetros para esto están activados.
 // ============================================================================
 
 responsible_sides = [side_a_side, side_b_side];
 
 // ============================================================================
-//        This is a list with all playable units, for DAC to use:              |
-//                     add or remove as necessary.                             |
-//                                                                             |
-//                 Chances are you can just leave this alone.                  |
+//        This is a list with all playable units, for DAC to use:
+//                     add or remove as necessary.
+///       Lista con todas las unidades jugables para que el DAC las use:
+//                    Añadir o eliminar como sea necesario
+//
+//                 No modificar si no es necesario.                 
 // ============================================================================
 DAC_STRPlayers = [
 //                     ==== BLUFOR 1st PLATOON ====
